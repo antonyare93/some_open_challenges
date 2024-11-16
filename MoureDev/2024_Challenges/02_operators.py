@@ -82,12 +82,12 @@ match num1:
         print("num1 is 20")
 
 try:
-    num4 = num3
-except NameError:
-    print("num3 is not defined")
-    num4 = -1
+    print(num1/0)
+except ZeroDivisionError:
+    print("Division by zero is not allowed")
 finally:
-    print(num4)
+    print(num1/1)
+    print("Division by one is allowed")
 
 # Extra: Print the even numbers except the 16 and the 3 multiples between 10 and 55, included.
 for i in range(10, 56):
