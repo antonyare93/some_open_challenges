@@ -7,3 +7,6 @@
 
 ## 2. Operators
  [02_operators.py](./02_operators.py)
+
+## 3. Functions and scope
+ [03_functions_and_scope.py](./03_functions_and_scope.py)
